@@ -1,23 +1,23 @@
 export const SITE = {
-  name: "Your Name",
+  name: "Blog",
   title: "ML Engineer & AI Safety Researcher",
   description:
-    "Building robust ML systems and exploring AI alignment. Currently focused on MLOps, interpretability, and safe deployment of AI systems.",
+    "Building ML systems and exploring AI Safety. Currently focused on MLOps and AI agents.",
   url: "https://yourusername.github.io",
   repo: "https://github.com/yourusername/yourusername.github.io",
-  email: "you@example.com",
+  email: "marhmpa@gmail.com",
   github: "https://github.com/yourusername",
   linkedin: "https://linkedin.com/in/yourusername",
   twitter: "https://twitter.com/yourusername",
   huggingface: "https://huggingface.co/yourusername",
-  location: "San Francisco, CA",
+
   status: "Open to collaborations in AI Safety research",
 };
 
 export const NAV_ITEMS = [
   { label: "Home", path: "/" },
   { label: "Blog", path: "/blog" },
-  { label: "Projects", path: "/projects" },
   { label: "TIL", path: "/til" },
+  { label: "Projects", path: "/projects" },
   { label: "About", path: "/about" },
 ];

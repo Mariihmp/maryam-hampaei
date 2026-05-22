@@ -34,8 +34,7 @@ export function About() {
           open-source tools and transparent research are essential for safe AI development.
         </p>
         <p>
-          When I'm not writing code or reading papers, I enjoy rock climbing, chess, and brewing
-          unreasonable amounts of coffee.
+         
         </p>
       </div>
 
