@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { SITE, NAV_ITEMS } from "@/data/site";
 import { Github, Linkedin, Twitter, Mail, ArrowUp } from "lucide-react";
 import { useState, useEffect } from "react";
+import { Logo } from "@/components/Logo";  // ← ADD THIS IMPORT
 
 function Header() {
   const location = useLocation();
@@ -14,8 +15,12 @@ function Header() {
   return (
     <header className="border-b border-nano-border bg-nano-surface/80 backdrop-blur-sm sticky top-0 z-50">
       <div className="max-w-2xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link to="/" className="font-semibold text-nano-text hover:text-nano-accent transition-colors">
-          {SITE.name}
+        <Link 
+          to="/" 
+          className="flex items-center gap-2 hover:text-nano-accent transition-colors"
+          title="Home"
+        >
+          <Logo />  {/* ← REPLACE {SITE.name} WITH THIS */}
         </Link>
 
         {/* Desktop Nav */}
